@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/22.generateparentheses/</loc>
+    <loc>http://localhost:1313/posts/22.generateparentheses/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/blog/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/leetcode/</loc>
+    <loc>http://localhost:1313/tags/leetcode/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/medium/</loc>
+    <loc>http://localhost:1313/tags/medium/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/stack/</loc>
+    <loc>http://localhost:1313/tags/stack/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-08-09T22:01:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/20.validparentheses/</loc>
+    <loc>http://localhost:1313/posts/20.validparentheses/</loc>
     <lastmod>2024-08-09T21:23:04+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/easy/</loc>
+    <loc>http://localhost:1313/tags/easy/</loc>
     <lastmod>2024-08-09T21:23:04+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/36.validsudoku/</loc>
+    <loc>http://localhost:1313/posts/36.validsudoku/</loc>
     <lastmod>2024-07-26T11:24:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/tags/arrayshashing/</loc>
+    <loc>http://localhost:1313/tags/arrayshashing/</loc>
     <lastmod>2024-07-26T11:24:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/49.groupanagrams/</loc>
+    <loc>http://localhost:1313/posts/49.groupanagrams/</loc>
     <lastmod>2024-07-25T15:10:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/128.longestconsecutivesequence/</loc>
+    <loc>http://localhost:1313/posts/128.longestconsecutivesequence/</loc>
     <lastmod>2024-07-25T14:35:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/238.productofarrayexceptself/</loc>
+    <loc>http://localhost:1313/posts/238.productofarrayexceptself/</loc>
     <lastmod>2024-07-24T11:20:28+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/347.topkfrequentelements/</loc>
+    <loc>http://localhost:1313/posts/347.topkfrequentelements/</loc>
     <lastmod>2024-07-23T13:22:39+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/242.validanagram/</loc>
+    <loc>http://localhost:1313/posts/242.validanagram/</loc>
     <lastmod>2024-07-22T22:13:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/217.containsduplicate/</loc>
+    <loc>http://localhost:1313/posts/217.containsduplicate/</loc>
     <lastmod>2024-07-22T22:12:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/posts/1.twosum/</loc>
+    <loc>http://localhost:1313/posts/1.twosum/</loc>
     <lastmod>2024-07-22T22:11:59+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/index-about/</loc>
+    <loc>http://localhost:1313/index-about/</loc>
   </url><url>
-    <loc>http://localhost:1313/drazsolkov.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

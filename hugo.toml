@@ -1,4 +1,4 @@
-baseURL = "https://drazsolkov.github.io/drazsolkov.com/"
+baseURL = "https://drazsolkov.com"
 defaultContentLanguage = "en"
 languageCode = "en"
 
@@ -67,7 +67,7 @@ socialIcons = [
 ]
 
 # URL for the avatar on homepage
-avatarURL = "/drazsolkov.com/images/avatar.png"
+avatarURL = "/images/avatar.png"
 
 # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
 avatarSize = ""
