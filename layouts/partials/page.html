@@ -7,8 +7,8 @@
 
     {{ $content_parts := split .Content "||||||||||" }} {{ index $content_parts
     0 | safe.HTML}}
-    <div class="row">
-        <div class="column">
+    <div class="row" style="display: flex">
+        <div class="column" style="flex: 50%">
             {{ index $content_parts 1 | safe.HTML}}
             <br />
             {{ index $content_parts 3 |safe.HTML}}
