@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Denis Razsolkov</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Denis Razsolkov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Aug 2024 22:01:42 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>22. Generate Parentheses - LeetCode</title>
+      <link>http://localhost:1313/posts/22.generateparentheses/</link>
+      <pubDate>Fri, 09 Aug 2024 22:01:42 +0200</pubDate>
+      <guid>http://localhost:1313/posts/22.generateparentheses/</guid>
+      <description>Problem Description Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.&#xA;Example 1: Input: n = 3 Output: [&amp;quot;((()))&amp;quot;,&amp;quot;(()())&amp;quot;,&amp;quot;(())()&amp;quot;,&amp;quot;()(())&amp;quot;,&amp;quot;()()()&amp;quot;] Example 2: Input: n=1 Output: [&amp;quot;()&amp;quot;] My Idea The idea here is that as seen in 20. Valid Parentheses for the parentheses to be well-formed, we need the number of opening ones to match the number of closing ones. Since there are different possible combinations for the parentheses, we use recursion and backtracking.</description>
+    </item>
+    <item>
+      <title>20. Valid Parentheses - LeetCode</title>
+      <link>http://localhost:1313/posts/20.validparentheses/</link>
+      <pubDate>Fri, 09 Aug 2024 21:23:04 +0200</pubDate>
+      <guid>http://localhost:1313/posts/20.validparentheses/</guid>
+      <description>Problem Description Given a string s containing just the characters &#39;(&#39;, &#39;)&#39;, &#39;{&#39;, &#39;}&#39;, &#39;[&#39; and &#39;]&#39;, determine if the input string is valid.&#xA;An input string is valid if:&#xA;Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type.&#xA;Example 1: Input: s = &amp;quot;()&amp;quot; Output: True Example 2: Input: s = &amp;quot;()[]{}&amp;quot; Output: True Example 3: Input: s = &amp;quot;(]&amp;quot; Output: False My Idea The idea here is to use a list as a stack, taking advantage of the LIFO strategy.</description>
+    </item>
+    <item>
+      <title>36. Valid Sudoku - LeetCode</title>
+      <link>http://localhost:1313/posts/36.validsudoku/</link>
+      <pubDate>Fri, 26 Jul 2024 11:24:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/36.validsudoku/</guid>
+      <description>Problem Description Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:&#xA;Each row must contain the digits 1-9 without repetition. Each column must contain the digits 1-9 without repetition. Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition. Note:&#xA;A Sudoku board (partially filled) could be valid but is not necessarily solvable.</description>
+    </item>
+    <item>
+      <title>49.Group Anagrams - LeetCode</title>
+      <link>http://localhost:1313/posts/49.groupanagrams/</link>
+      <pubDate>Thu, 25 Jul 2024 15:10:27 +0200</pubDate>
+      <guid>http://localhost:1313/posts/49.groupanagrams/</guid>
+      <description>Problem Description Given an array of strings strs, group the anagrams together. You can return the answer in any order.&#xA;An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.&#xA;Example 1: Input: strs = [&amp;quot;eat&amp;quot;,&amp;quot;tea&amp;quot;,&amp;quot;tan&amp;quot;,&amp;quot;ate&amp;quot;,&amp;quot;nat&amp;quot;,&amp;quot;bat&amp;quot;] Output: [[&amp;quot;bat&amp;quot;],[&amp;quot;nat&amp;quot;,&amp;quot;tan&amp;quot;],[&amp;quot;ate&amp;quot;,&amp;quot;eat&amp;quot;,&amp;quot;tea&amp;quot;]] Example 2: Input: strs = [&amp;quot;&amp;quot;] Output: [[&amp;quot;&amp;quot;]] Example 3: Input: strs = [&amp;quot;a&amp;quot;] Output: [[&amp;quot;a&amp;quot;]] My Idea My initial idea was to use the sorting approach from [[242.</description>
+    </item>
+    <item>
+      <title>128. Longest Consecutive Sequence - LeetCode</title>
+      <link>http://localhost:1313/posts/128.longestconsecutivesequence/</link>
+      <pubDate>Thu, 25 Jul 2024 14:35:20 +0200</pubDate>
+      <guid>http://localhost:1313/posts/128.longestconsecutivesequence/</guid>
+      <description>Problem Description Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.&#xA;You must write an algorithm that runs in O(n) time.&#xA;Example 1: Input: nums = [100,4,200,1,3,2] Output: 4 Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4. Example 2: Input: nums = [0,3,7,2,5,8,4,6,0,1] Output: 9 My Idea To find the longest sequence in O(n) time, we&amp;rsquo;d need to optimize the data structure for nums by converting in to a set, since set lookup happens ins constant time O(1).</description>
+    </item>
+    <item>
+      <title>238. Product of Array Except Self - LeetCode</title>
+      <link>http://localhost:1313/posts/238.productofarrayexceptself/</link>
+      <pubDate>Wed, 24 Jul 2024 11:20:28 +0200</pubDate>
+      <guid>http://localhost:1313/posts/238.productofarrayexceptself/</guid>
+      <description>Problem Description Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].&#xA;The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.&#xA;You must write an algorithm that runs in O(n) time and without using the division operation.&#xA;Example 1: Input: nums = [1,2,3,4] Output: [24,12,8,6] Example 2: Input: nums = [-1,1,0,-3,3] Output: [0,0,9,0,0] My Idea My initial idea was to create the results list initiated with 1s.</description>
+    </item>
+    <item>
+      <title>347. Top K Frequent Elements - LeetCode</title>
+      <link>http://localhost:1313/posts/347.topkfrequentelements/</link>
+      <pubDate>Tue, 23 Jul 2024 13:22:39 +0200</pubDate>
+      <guid>http://localhost:1313/posts/347.topkfrequentelements/</guid>
+      <description>Problem Description Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.&#xA;Example 1: Input: nums = [1,1,1,2,2,3], k = 2 Output: [1,2] Example 2: Input: nums = [1], k = 1 Output: [1] My Idea My initial idea was to store the elements and their respective frequencies in a dictionary, whose keys i sort by frequency and return the first k of them.</description>
+    </item>
+    <item>
+      <title>242. Valid Anagram - LeetCode</title>
+      <link>http://localhost:1313/posts/242.validanagram/</link>
+      <pubDate>Mon, 22 Jul 2024 22:13:16 +0200</pubDate>
+      <guid>http://localhost:1313/posts/242.validanagram/</guid>
+      <description>Problem Description Given two strings s and t, return true if t is an anagram of s, and false otherwise.&#xA;An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.&#xA;Example 1: Input: s = &amp;quot;anagram&amp;quot;, t = &amp;quot;nagaram&amp;quot; Output: true Example 2: Input: s = rat&amp;quot;, t = &amp;quot;car&amp;quot; Output: false My Idea Since anagrams contain the same letters, my initial idea was to just sort the two strings and compare them.</description>
+    </item>
+    <item>
+      <title>217. Contains Duplicate - LeetCode</title>
+      <link>http://localhost:1313/posts/217.containsduplicate/</link>
+      <pubDate>Mon, 22 Jul 2024 22:12:44 +0200</pubDate>
+      <guid>http://localhost:1313/posts/217.containsduplicate/</guid>
+      <description>Problem Description Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.&#xA;Example 1: Input: nums = [1,2,3,1] Output: true Example 2: Input: nums = [1,2,3,4] Output: false My Idea My initial idea was to iterate over the array and store key, value pairs for every element and its frequency. In the end i convert the frequencies to a set and add the value 1 to it.</description>
+    </item>
+    <item>
+      <title>1. Two Sum - LeetCode</title>
+      <link>http://localhost:1313/posts/1.twosum/</link>
+      <pubDate>Mon, 22 Jul 2024 22:11:59 +0200</pubDate>
+      <guid>http://localhost:1313/posts/1.twosum/</guid>
+      <description>Problem Description Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.&#xA;You may assume that each input would have exactly one solution, and you may not use the same element twice.&#xA;You can return the answer in any order.&#xA;Example: Input: nums = [2,7,11,15], target = 9 Output: [0,1] Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].</description>
+    </item>
+  </channel>
+</rss>

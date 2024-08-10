@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>238. Product of Array Except Self - LeetCode</title>
+    <meta name="description" content="238. Product of Array Except Self - LeetCode">
+    <meta name="keywords" content='blog, hugo, leetcode, python, arrays&amp;hashing, medium'>
+
+    <meta property="og:url" content="http://localhost:1313/posts/238.productofarrayexceptself/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="238. Product of Array Except Self - LeetCode">
+    <meta property="og:description" content="238. Product of Array Except Self - LeetCode">
+    <meta property="og:image" content="http://localhost:1313/path/to/image.png">
+    <meta property="og:image:secure_url" content="http://localhost:1313/path/to/image.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="238. Product of Array Except Self - LeetCode">
+    <meta name="twitter:description" content="238. Product of Array Except Self - LeetCode">
+    <meta property="twitter:domain" content="http://localhost:1313/posts/238.productofarrayexceptself/">
+    <meta property="twitter:url" content="http://localhost:1313/posts/238.productofarrayexceptself/">
+    <meta name="twitter:image" content="http://localhost:1313/path/to/image.png">
+
+    
+    <link rel="canonical" href="http://localhost:1313/posts/238.productofarrayexceptself/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.9a920d7dabdbad8363b6a0a94e29a9dfebdb7ee64cfcb193a0145e512ef2bdab.js" integrity="sha256-mpINfavbrYNjtqCpTimp3&#43;vbfuZM/LGToBReUS7yvas="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/avatar.png' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">Denis Razsolkov</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/"> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/cv/"> CV </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/"> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/drazsolkov"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/"> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/cv/"> CV </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/"> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/drazsolkov"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>238. Product of Array Except Self - LeetCode</h1>
+        <small role="doc-subtitle">238. Product of Array Except Self - LeetCode</small>
+        <p class="post-date">July 24, 2024
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/blog">blog</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/leetcode">leetcode</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/python">python</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/arrayshashing">arrays&amp;hashing</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/medium">medium</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <h2 id="problem-description">Problem Description</h2>
+<p>Given an integer array <code>nums</code>, return an array answer such that answer<code>[i]</code> is equal to the product of all the elements of <code>nums</code> except <code>nums[i]</code>.</p>
+<p>The product of any prefix or suffix of <code>nums</code> is guaranteed to fit in a 32-bit integer.</p>
+<p>You must write an algorithm that runs in <code>O(n)</code> time and without using the division operation.</p>
+<h3 id="example-1">Example 1:</h3>
+<ul>
+<li><strong>Input:</strong> <code>nums = [1,2,3,4]</code></li>
+<li><strong>Output:</strong> <code>[24,12,8,6]</code></li>
+</ul>
+<h3 id="example-2">Example 2:</h3>
+<ul>
+<li><strong>Input:</strong> <code>nums = [-1,1,0,-3,3]</code></li>
+<li><strong>Output:</strong> <code>[0,0,9,0,0]</code></li>
+</ul>
+<h2 id="my-idea">My Idea</h2>
+<p>My initial idea was to create the results list initiated with 1s. Then loop over <code>nums</code> and for each <code>n</code> create a list <code>mult</code> that has the value of <code>n</code> in every position except <code>n</code>&rsquo;s index in <code>nums</code> and multiply this list with <code>res</code>. This, however, results in a time complexity of <code>O(n^2)</code>. The better solution would be to reduce the amount of calculations by calculating the results of multiplying all the elements to the left and to the right of every index <code>i</code> respectively and multiply the results. This results in a time complexity of <code>O(n)</code>. If done using two arrays it has a space complexity of <code>O(n)</code>, but this can be reduced to <code>O(1)</code> if the calculations are done directly in <code>res</code>.</p>
+<h2 id="my-solution">My solution</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Optimal solution with time complexity of O(n) and space complexity of O(1)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">productExceptSelf</span>(nums: list[int]) <span style="color:#f92672">-&gt;</span> list[int]:
+</span></span><span style="display:flex;"><span>    l <span style="color:#f92672">=</span> len(nums)
+</span></span><span style="display:flex;"><span>    res <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>] <span style="color:#f92672">*</span> l
+</span></span><span style="display:flex;"><span>    left_product <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(l):
+</span></span><span style="display:flex;"><span>        res[i] <span style="color:#f92672">=</span> left_product
+</span></span><span style="display:flex;"><span>        left_product <span style="color:#f92672">*=</span> nums[i]
+</span></span><span style="display:flex;"><span>    right_product <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(l <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        res[i] <span style="color:#f92672">*=</span> right_product
+</span></span><span style="display:flex;"><span>        right_product <span style="color:#f92672">*=</span> nums[i]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> res
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Better solution with time and space complexity of O(n)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">productExceptSelfBetter</span>(nums: list[int]) <span style="color:#f92672">-&gt;</span> list[int]:
+</span></span><span style="display:flex;"><span>    l<span style="color:#f92672">=</span>len(nums)
+</span></span><span style="display:flex;"><span>    left <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>l
+</span></span><span style="display:flex;"><span>    right <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>l
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,l):
+</span></span><span style="display:flex;"><span>        left[i]<span style="color:#f92672">=</span>left[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>nums[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(l<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        right[i]<span style="color:#f92672">=</span>right[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>nums[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [a<span style="color:#f92672">*</span>b <span style="color:#66d9ef">for</span> a,b <span style="color:#f92672">in</span> zip(left,right)]
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Initiial approach with time complexity O(n^2)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">productExceptSelfInitial</span>(nums: list[int]) <span style="color:#f92672">-&gt;</span> list[int]:
+</span></span><span style="display:flex;"><span>    l<span style="color:#f92672">=</span>len(nums)
+</span></span><span style="display:flex;"><span>    res<span style="color:#f92672">=</span>[<span style="color:#ae81ff">1</span> <span style="color:#66d9ef">for</span> n <span style="color:#f92672">in</span> nums]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i,e <span style="color:#f92672">in</span> enumerate(nums):
+</span></span><span style="display:flex;"><span>        mult<span style="color:#f92672">=</span>[e]<span style="color:#f92672">*</span>l
+</span></span><span style="display:flex;"><span>        mult[i]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        res <span style="color:#f92672">=</span> [a<span style="color:#f92672">*</span>b <span style="color:#66d9ef">for</span> a,b <span style="color:#f92672">in</span> zip(res,mult)]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> res
+</span></span></code></pre></div>
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="topFunction()" title="Go to top">
+        
+        <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+    </svg>
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+     
+    <span>&copy; 2024 Denis Razsolkov</span>
+    
+    <span>
+        Made using
+        <a target="_blank" href="https://github.com/526avijitgupta/gokarna"
+            >Gokarna</a
+        >
+    </span>
+</footer>
+</body>
+</html>
