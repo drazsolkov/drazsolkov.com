@@ -67,7 +67,7 @@ socialIcons = [
 ]
 
 # URL for the avatar on homepage
-avatarURL = "/images/avatar.png"
+avatarURL = "/drazsolkov.com/images/avatar.png"
 
 # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
 avatarSize = ""
