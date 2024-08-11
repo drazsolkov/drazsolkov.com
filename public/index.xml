@@ -6,8 +6,15 @@
     <description>Recent content on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Aug 2024 22:01:42 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 18:42:48 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>739. Daily Temperatures - LeetCode</title>
+      <link>http://localhost:1313/posts/739.dailytemperatures/</link>
+      <pubDate>Sun, 11 Aug 2024 18:42:48 +0200</pubDate>
+      <guid>http://localhost:1313/posts/739.dailytemperatures/</guid>
+      <description>Problem Description Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.&#xA;Example 1: Input: temperatures = [73,74,75,71,69,72,76,73] Output: [1,1,4,2,1,1,0,0] Example 2: Input: temperatures = [30,40,50,60] Output: [1,1,1,0] My Idea The idea here is to construct a stack of monotonically decreasing values.</description>
+    </item>
     <item>
       <title>22. Generate Parentheses - LeetCode</title>
       <link>http://localhost:1313/posts/22.generateparentheses/</link>
