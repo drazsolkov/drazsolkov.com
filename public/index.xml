@@ -6,8 +6,15 @@
     <description>Recent content on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Aug 2024 18:42:48 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 10:46:12 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>155. MinStack - LeetCode</title>
+      <link>http://localhost:1313/posts/155.minstack/</link>
+      <pubDate>Mon, 30 Sep 2024 10:46:12 +0200</pubDate>
+      <guid>http://localhost:1313/posts/155.minstack/</guid>
+      <description>Problem Description Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.&#xA;Implement the MinStack class:&#xA;MinStack() initializes the stack object. void push(int val) pushes the element val onto the stack. void pop() removes the element on the top of the stack. int top() gets the top element of the stack. int getMin() retrieves the minimum element in the stack. You must implement a solution with O(1) time complexity for each function.</description>
+    </item>
     <item>
       <title>739. Daily Temperatures - LeetCode</title>
       <link>http://localhost:1313/posts/739.dailytemperatures/</link>
