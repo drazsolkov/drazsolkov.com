@@ -6,8 +6,15 @@
     <description>Recent content in Python on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Sep 2024 10:46:12 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 10:59:31 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>150. Evaluate Reverse Polish Notation - LeetCode</title>
+      <link>http://localhost:1313/posts/150.evaluatereversepolishnotation/</link>
+      <pubDate>Tue, 01 Oct 2024 10:59:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/150.evaluatereversepolishnotation/</guid>
+      <description>Problem Description You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.&#xA;Evaluate the expression. Return an integer that represents the value of the expression.&#xA;Note that:&#xA;The valid operators are &#39;+&#39;, &#39;-&#39;, &#39;*&#39;, and &#39;/&#39;. Each operand may be an integer or another expression. The division between two integers always truncates toward zero. There will not be any division by zero. The input represents a valid arithmetic expression in a reverse polish notation.</description>
+    </item>
     <item>
       <title>155. MinStack - LeetCode</title>
       <link>http://localhost:1313/posts/155.minstack/</link>
