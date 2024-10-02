@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Oct 2024 10:59:31 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 14:02:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>853. Car Fleet - Leet Code</title>
+      <link>http://localhost:1313/posts/853.carfleet/</link>
+      <pubDate>Wed, 02 Oct 2024 14:02:09 +0200</pubDate>
+      <guid>http://localhost:1313/posts/853.carfleet/</guid>
+      <description>Problem Description There are n cars at given miles away from the starting mile 0, traveling to reach the mile target.&#xA;You are given two integer array position and speed, both of length n, where position[i] is the starting mile of the i-th car and speed[i] is the speed of the i-th car in miles per hour.&#xA;A car cannot pass another car, but it can catch up and then travel next to it at the speed of the slower car.</description>
+    </item>
     <item>
       <title>150. Evaluate Reverse Polish Notation - LeetCode</title>
       <link>http://localhost:1313/posts/150.evaluatereversepolishnotation/</link>
