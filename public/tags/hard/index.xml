@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hard on Denis Razsolkov</title>
+    <link>http://localhost:1313/tags/hard/</link>
+    <description>Recent content in Hard on Denis Razsolkov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Oct 2024 11:08:08 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>85. Longest Rectangle in Histogram - Leet Code</title>
+      <link>http://localhost:1313/posts/85.longestrectangleinhistogram/</link>
+      <pubDate>Tue, 08 Oct 2024 11:08:08 +0200</pubDate>
+      <guid>http://localhost:1313/posts/85.longestrectangleinhistogram/</guid>
+      <description>Problem Description Given an array of integers heights, representing the histogram&amp;rsquo;s bar height, where the width of each bar is 1, return the area of the largest rectangle in the histogram.&#xA;Example 1: Input: heights = [2,1,5,6,2,3] Output: 10 Explanation: The above is a histogram where width of each bar is 1. The largest rectangle is shown in the red area, which has an area = 10 units. Example 2: Input: heights = [2,4] Output: 4 My Idea Here we once more make use of a stack to keep track of the bars.</description>
+    </item>
+  </channel>
+</rss>

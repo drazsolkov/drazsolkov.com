@@ -195,7 +195,8 @@
 <h2 id="my-idea">My Idea</h2>
 <p>The idea here is to implement a stack that evaluates the expression. We read the <code>tokens</code> one by one and if it&rsquo;s a number, we just add it to the stack. If it&rsquo;s an operator, we pop the last two elements, perform the operation and add the result to the stack. In the end there is exactly one element left in the stack, which represents the result.</p>
 <h2 id="my-solution">My solution</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">evalRPN</span>(tokens: list[str]) <span style="color:#f92672">-&gt;</span> int:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Time Complexity: O(n)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">evalRPN</span>(tokens: list[str]) <span style="color:#f92672">-&gt;</span> int:
 </span></span><span style="display:flex;"><span>    s<span style="color:#f92672">=</span>[]
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> t <span style="color:#f92672">in</span> tokens:
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> t<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;+&#39;</span>:

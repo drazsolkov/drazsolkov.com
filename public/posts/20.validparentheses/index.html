@@ -192,7 +192,7 @@ Every close bracket has a corresponding open bracket of the same type.</p>
 <h2 id="my-idea">My Idea</h2>
 <p>The idea here is to use a list as a stack, taking advantage of the LIFO strategy. Every time we see an opening bracket we add it to the stack and when we see a closing one, we pop the last added one(the last opening bracket) and check if it matches the closing one (the current one).</p>
 <h2 id="my-solution">My solution</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># O(n) time complexity</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Time Complexity: O(n)</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">isValid</span>( s: str) <span style="color:#f92672">-&gt;</span> bool:
 </span></span><span style="display:flex;"><span>    stack<span style="color:#f92672">=</span>[]
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> c <span style="color:#f92672">in</span> s:
