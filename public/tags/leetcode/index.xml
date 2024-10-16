@@ -6,8 +6,15 @@
     <description>Recent content in Leetcode on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Oct 2024 10:56:02 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 11:15:06 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>11. Container With Most Water - Leet Code</title>
+      <link>http://localhost:1313/posts/11.containerwithmostwater/</link>
+      <pubDate>Wed, 16 Oct 2024 11:15:06 +0200</pubDate>
+      <guid>http://localhost:1313/posts/11.containerwithmostwater/</guid>
+      <description>Problem Description You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the i-th line are (i, 0) and (i, height[i]).&#xA;Find two lines that together with the x-axis form a container, such that the container contains the most water.&#xA;Return the maximum amount of water a container can store.&#xA;Notice that you may not slant the container.</description>
+    </item>
     <item>
       <title>167. Two Sum II - Input Array is sorted - Leet Code</title>
       <link>http://localhost:1313/posts/167.twosumii/</link>
