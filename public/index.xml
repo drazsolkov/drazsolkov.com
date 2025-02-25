@@ -6,8 +6,15 @@
     <description>Recent content on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Oct 2024 14:42:11 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 14:01:44 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>42. Trapping Rain Water</title>
+      <link>http://localhost:1313/posts/42.trappingrainwater/</link>
+      <pubDate>Tue, 25 Feb 2025 14:01:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/42.trappingrainwater/</guid>
+      <description>Problem Description Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.&#xA;Example 1: Input: height = [0,1,0,2,1,0,1,3,2,1,2,1] Output: 6 My Idea For each position in the resulting figure the amount of water that can be trapped is the minimum of the two highest peaks to the left and right minus the height at the position itself.</description>
+    </item>
     <item>
       <title>15. 3Sum - Leet Code</title>
       <link>http://localhost:1313/posts/15.3sum/</link>
