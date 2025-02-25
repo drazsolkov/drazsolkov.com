@@ -6,8 +6,15 @@
     <description>Recent content in Leetcode on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Feb 2025 14:01:44 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 15:18:49 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>704. Binary Search</title>
+      <link>http://localhost:1313/posts/704.binarysearch/</link>
+      <pubDate>Tue, 25 Feb 2025 15:18:49 +0100</pubDate>
+      <guid>http://localhost:1313/posts/704.binarysearch/</guid>
+      <description>Problem Description Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.&#xA;You must write an algorithm with O(log n) runtime complexity.&#xA;Example 1: Input: nums = [-1,0,3,5,9,12], target = 9 Output: 4 Example 2: Input: nums = [-1,0,3,5,9,12], target = 2 Output: -1 My Idea The idea here is to implement the basic version of binary search, where we compare with the middle element and depending on weather it&amp;rsquo;s value is &amp;gt; or &amp;lt; than our target we restrict our problem space to the left or right half of the array respectively.</description>
+    </item>
     <item>
       <title>42. Trapping Rain Water</title>
       <link>http://localhost:1313/posts/42.trappingrainwater/</link>
