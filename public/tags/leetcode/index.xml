@@ -6,17 +6,31 @@
     <description>Recent content in Leetcode on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Feb 2025 15:18:49 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 15:05:13 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>704. Binary Search</title>
+      <title>875. Koko Eating Bananas - LeetCode</title>
+      <link>http://localhost:1313/posts/875.kokoeatingbananas/</link>
+      <pubDate>Wed, 26 Feb 2025 15:05:13 +0100</pubDate>
+      <guid>http://localhost:1313/posts/875.kokoeatingbananas/</guid>
+      <description>Problem Description Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas. The guards have gone and will come back in h hours.&#xA;Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.</description>
+    </item>
+    <item>
+      <title>74. Search a 2D Matrix - LeetCode</title>
+      <link>http://localhost:1313/posts/74.search2dmatrix/</link>
+      <pubDate>Wed, 26 Feb 2025 13:59:02 +0100</pubDate>
+      <guid>http://localhost:1313/posts/74.search2dmatrix/</guid>
+      <description>Problem Description You are given an m x n integer matrix matrix with the following two properties:&#xA;Each row is sorted in non-decreasing order. The first integer of each row is greater than the last integer of the previous row. Given an integer target, return true if target is in matrix or false otherwise.&#xA;You must write a solution in O(log(m * n)) time complexity.&#xA;Example 1: Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3 Output: True Example 2: Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13 Output: False My Idea My idea here was to first utilize binary search on the first element of each row to find the possible row for target and then do one more binary search within this row to check if target is indeed there, thus yielding the desired time complexity of O(log m*n).</description>
+    </item>
+    <item>
+      <title>704. Binary Search - LeetCode</title>
       <link>http://localhost:1313/posts/704.binarysearch/</link>
       <pubDate>Tue, 25 Feb 2025 15:18:49 +0100</pubDate>
       <guid>http://localhost:1313/posts/704.binarysearch/</guid>
       <description>Problem Description Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.&#xA;You must write an algorithm with O(log n) runtime complexity.&#xA;Example 1: Input: nums = [-1,0,3,5,9,12], target = 9 Output: 4 Example 2: Input: nums = [-1,0,3,5,9,12], target = 2 Output: -1 My Idea The idea here is to implement the basic version of binary search, where we compare with the middle element and depending on weather it&amp;rsquo;s value is &amp;gt; or &amp;lt; than our target we restrict our problem space to the left or right half of the array respectively.</description>
     </item>
     <item>
-      <title>42. Trapping Rain Water</title>
+      <title>42. Trapping Rain Water - LeetCode</title>
       <link>http://localhost:1313/posts/42.trappingrainwater/</link>
       <pubDate>Tue, 25 Feb 2025 14:01:44 +0100</pubDate>
       <guid>http://localhost:1313/posts/42.trappingrainwater/</guid>
