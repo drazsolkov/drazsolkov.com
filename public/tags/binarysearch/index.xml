@@ -6,14 +6,21 @@
     <description>Recent content in BinarySearch on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Feb 2025 15:05:13 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 14:36:46 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/binarysearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>153. Finding Minimum in Rotated Sorted Array - LeetCode</title>
+      <link>http://localhost:1313/posts/153.findingminimuminrotatedsortedarray/</link>
+      <pubDate>Thu, 27 Feb 2025 14:36:46 +0100</pubDate>
+      <guid>http://localhost:1313/posts/153.findingminimuminrotatedsortedarray/</guid>
+      <description>Problem Description Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:&#xA;[4,5,6,7,0,1,2] if it was rotated 4 times. [0,1,2,4,5,6,7] if it was rotated 7 times. Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]]. Given the sorted rotated array numsof unique elements, return the minimum element of this array.</description>
+    </item>
     <item>
       <title>875. Koko Eating Bananas - LeetCode</title>
       <link>http://localhost:1313/posts/875.kokoeatingbananas/</link>
       <pubDate>Wed, 26 Feb 2025 15:05:13 +0100</pubDate>
       <guid>http://localhost:1313/posts/875.kokoeatingbananas/</guid>
-      <description>Problem Description Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas. The guards have gone and will come back in h hours.&#xA;Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.</description>
+      <description>Problem Description Koko loves to eat bananas. There are n piles of bananas, the i-th pile has piles[i] bananas. The guards have gone and will come back in h hours.&#xA;Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.</description>
     </item>
     <item>
       <title>74. Search a 2D Matrix - LeetCode</title>
