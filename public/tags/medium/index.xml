@@ -6,8 +6,15 @@
     <description>Recent content in Medium on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Feb 2025 10:38:41 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 11:44:52 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/medium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>981. Time Based Key-Value Store - LeetCode</title>
+      <link>http://localhost:1313/posts/981.timebasedkey-valuestore/</link>
+      <pubDate>Wed, 05 Mar 2025 11:44:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/981.timebasedkey-valuestore/</guid>
+      <description>Problem Description Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key&amp;rsquo;s value at a certain timestamp.&#xA;Implement the TimeMap class:&#xA;TimeMap() Initializes the object of the data structure. void set(String key, String value, int timestamp) Stores the key key with the value value at the given time timestamp. String get(String key, int timestamp) Returns a value such that set was called previously, with timestamp_prev &amp;lt;= timestamp.</description>
+    </item>
     <item>
       <title>33. Search in Rotated Sorted Array - LeetCode</title>
       <link>http://localhost:1313/posts/33.searchrotatedsortedarray/</link>
