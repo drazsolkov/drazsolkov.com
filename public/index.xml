@@ -6,8 +6,15 @@
     <description>Recent content on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Mar 2025 13:40:42 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 13:33:46 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>121. Best Time to Buy and Sell Stock - LeetCode</title>
+      <link>http://localhost:1313/posts/121.besttimetobuyandsellstock/</link>
+      <pubDate>Thu, 06 Mar 2025 13:33:46 +0100</pubDate>
+      <guid>http://localhost:1313/posts/121.besttimetobuyandsellstock/</guid>
+      <description>Problem Description You are given an array prices where prices[i] is the price of a given stock on the i-th` day.&#xA;You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.&#xA;Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.&#xA;Example 1: Input: prices = [7,1,5,3,6,4] Output: 5 Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.</description>
+    </item>
     <item>
       <title>4. Median of Two Sorted Arrays - Leet Code</title>
       <link>http://localhost:1313/posts/4.medianoftwosortedarrays/</link>
