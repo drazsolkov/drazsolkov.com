@@ -6,8 +6,15 @@
     <description>Recent content in Medium on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Mar 2025 11:44:52 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 12:58:41 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/medium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.Longest Substring Without Repeating Character - Leet Code</title>
+      <link>http://localhost:1313/posts/3.longestsubstringwithoutrepeatingcharacter/</link>
+      <pubDate>Thu, 13 Mar 2025 12:58:41 +0100</pubDate>
+      <guid>http://localhost:1313/posts/3.longestsubstringwithoutrepeatingcharacter/</guid>
+      <description>Problem Description Given a string s, find the length of the longest substring without duplicate characters.&#xA;Example 1: Input: s = &amp;quot;abcabcbb&amp;quot; Output: 3 Example 2: Input: s = &amp;quot;pwwkew&amp;quot; Output: 3 My Idea The idea here is to utilize the Sliding Window approach. In every step we increase the window to the right. If we encounter a character that&amp;rsquo;s already a part of the current substring (window), we shorten from the left until the original instance is just outside of the window.</description>
+    </item>
     <item>
       <title>981. Time Based Key-Value Store - LeetCode</title>
       <link>http://localhost:1313/posts/981.timebasedkey-valuestore/</link>
