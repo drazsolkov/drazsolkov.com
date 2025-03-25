@@ -6,10 +6,24 @@
     <description>Recent content in Medium on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Mar 2025 12:58:41 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 16:42:34 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/medium/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3.Longest Substring Without Repeating Character - Leet Code</title>
+      <title>567. Permutation In String - LeetCode</title>
+      <link>http://localhost:1313/posts/567.permutationinstring/</link>
+      <pubDate>Tue, 25 Mar 2025 16:42:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/567.permutationinstring/</guid>
+      <description>Problem Description Given two strings s1 and s2, return True if s2 contains a permutation of s1, or False otherwise.&#xA;In other words, return True if one of s1&#39;s permutations is the substring of s2.&#xA;Example 1: Input: s1 = &amp;quot;ab&amp;quot;, s2 = &amp;quot;eidbaooo&amp;quot; Output: True Explanation: s2 contains one permutation of s1 (&amp;quot;ba&amp;quot;). Example 2: Input: s1 = &amp;quot;ab&amp;quot;, s2 = &amp;quot;eidboaoo&amp;quot; Output: False My Idea The idea here was to set a window size of len(s1) and check the frequency hashmap of the characters in the window of s2 against the one for s1.</description>
+    </item>
+    <item>
+      <title>424. Longest Repeating Character Replacement - LeetCode</title>
+      <link>http://localhost:1313/posts/424.longestrepeatingcharacterreplacement/</link>
+      <pubDate>Tue, 25 Mar 2025 16:40:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/424.longestrepeatingcharacterreplacement/</guid>
+      <description>Problem Description You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.&#xA;Return the length of the longest substring containing the same letter you can get after performing the above operations.&#xA;Example 1: Input: s = &amp;quot;ABAB&amp;quot;, k = 2 Output: 4 Explanation: Replace the two &#39;A&#39;s with two &#39;B&#39;s or vice versa.</description>
+    </item>
+    <item>
+      <title>3. Longest Substring Without Repeating Character - Leet Code</title>
       <link>http://localhost:1313/posts/3.longestsubstringwithoutrepeatingcharacter/</link>
       <pubDate>Thu, 13 Mar 2025 12:58:41 +0100</pubDate>
       <guid>http://localhost:1313/posts/3.longestsubstringwithoutrepeatingcharacter/</guid>

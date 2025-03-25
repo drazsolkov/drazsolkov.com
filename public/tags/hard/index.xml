@@ -6,8 +6,22 @@
     <description>Recent content in Hard on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Mar 2025 13:40:42 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 16:46:05 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>76. Minimum Window Substring - LeetCode</title>
+      <link>http://localhost:1313/posts/76.minimumwindowsubstring/</link>
+      <pubDate>Tue, 25 Mar 2025 16:46:05 +0100</pubDate>
+      <guid>http://localhost:1313/posts/76.minimumwindowsubstring/</guid>
+      <description>Problem Description Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string &amp;quot;&amp;quot;.&#xA;The testcases will be generated such that the answer is unique.&#xA;Example 1: Input: s = &amp;quot;ADOBECODEBANC&amp;quot;, t = &amp;quot;ABC&amp;quot; Output: &amp;quot;BANC&amp;quot; Explanation: The minimum window substring &amp;quot;BANC&amp;quot; includes &#39;A&#39;, &#39;B&#39;, and &#39;C&#39; from string t.</description>
+    </item>
+    <item>
+      <title>239. Sliding Window Maximum - LeetCode</title>
+      <link>http://localhost:1313/posts/239.slidingwindowmaximum/</link>
+      <pubDate>Tue, 25 Mar 2025 16:43:53 +0100</pubDate>
+      <guid>http://localhost:1313/posts/239.slidingwindowmaximum/</guid>
+      <description>Problem Description You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.&#xA;Return the max of the sliding window.&#xA;Example 1: Input: nums = [1,3,-1,-3,5,3,6,7], k = 3 Output: [3,3,5,5,6,7] Explanation: Window position Max --------------- ----- [1 3 -1] -3 5 3 6 7 3 1 [3 -1 -3] 5 3 6 7 3 1 3 [-1 -3 5] 3 6 7 5 1 3 -1 [-3 5 3] 6 7 5 1 3 -1 -3 [5 3 6] 7 6 1 3 -1 -3 5 [3 6 7] 7 Example 2: Input: nums = [1], k = 1 Output: [1] My Idea The initial idea was simply to check for the max element in each window and add it to the resulting list.</description>
+    </item>
     <item>
       <title>4. Median of Two Sorted Arrays - Leet Code</title>
       <link>http://localhost:1313/posts/4.medianoftwosortedarrays/</link>
