@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/143.reorderlist/</link>
       <pubDate>Wed, 26 Mar 2025 20:31:09 +0100</pubDate>
       <guid>http://localhost:1313/posts/143.reorderlist/</guid>
-      <description>Problem Description You are given the head of a singly linked-list. The list can be represented as:&#xA;$L_0 → L_1 → … → L_(n - 1) → L_n$ Reorder the list to be on the following form:&#xA;$L_0 → L_n → L_1 → L_(n - 1) → L_2 → L_(n - 2) → …$ You may not modify the values in the list&amp;rsquo;s nodes. Only nodes themselves may be changed.</description>
+      <description>Problem Description You are given the head of a singly linked-list. The list can be represented as:&#xA;$L_0 → L_1 → … → L_(n - 1) → L_n$&#xA;Reorder the list to be on the following form:&#xA;$L_0 → L_n → L_1 → L_(n - 1) → L_2 → L_(n - 2) → …$&#xA;You may not modify the values in the list&amp;rsquo;s nodes. Only nodes themselves may be changed.</description>
     </item>
     <item>
       <title>206. Reverse Linked List - LeetCode</title>
