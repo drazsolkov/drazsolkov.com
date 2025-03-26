@@ -64,5 +64,6 @@
     <link rel="manifest" href="/site.webmanifest" />
     <!-- Option for user to inject custom html -->
     {{ if .Site.Params.CustomHeadHTML }} {{ .Site.Params.CustomHeadHTML |
-    safeHTML }} {{ end }}
+    safeHTML }} {{ end }} {{ if .Param "math" }} {{ partialCached "math.html" .
+    }} {{ end }}
 </head>
