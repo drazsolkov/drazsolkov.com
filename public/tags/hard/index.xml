@@ -6,8 +6,15 @@
     <description>Recent content in Hard on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Mar 2025 16:46:05 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 01 Apr 2025 11:28:31 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>23. Merge K Sorted Lists - LeetCode</title>
+      <link>http://localhost:1313/posts/23.mergeksortedlists/</link>
+      <pubDate>Tue, 01 Apr 2025 11:28:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/23.mergeksortedlists/</guid>
+      <description>Problem Description You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.&#xA;Merge all the linked-lists into one sorted linked-list and return it.&#xA;Example 1: Input: lists = [[1,4,5],[1,3,4],[2,6]] Output: [1,1,2,3,4,4,5,6] Example 2: Input: [] Output: [] My Idea My initial idea was to simply iterate over the list and merge the elements one by one. This yielded a time complexity of O(n*k). To optimize this approach we can go ahead and merge the list in twos until we get one list.</description>
+    </item>
     <item>
       <title>76. Minimum Window Substring - LeetCode</title>
       <link>http://localhost:1313/posts/76.minimumwindowsubstring/</link>
