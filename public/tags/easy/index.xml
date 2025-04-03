@@ -6,8 +6,36 @@
     <description>Recent content in Easy on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 20:21:57 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 14:58:22 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/easy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>110. Balanced Binary Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/110.balancedbinarytree/</link>
+      <pubDate>Thu, 03 Apr 2025 14:58:22 +0200</pubDate>
+      <guid>http://localhost:1313/posts/110.balancedbinarytree/</guid>
+      <description>Problem Description Given a binary tree, determine if it is height-balanced.&#xA;A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.&#xA;Example 1: Input: root = [3,9,20,null,null,15,7] Output: True Example 2: Input: root = [1,2,2,3,3,null,null,4,4] Output: False Example 3: Input: root = [] Output: True My Idea The idea here is very similar to the one in 543.</description>
+    </item>
+    <item>
+      <title>543. Diameter Of Binary Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/543.diameterofbinarytree/</link>
+      <pubDate>Thu, 03 Apr 2025 14:33:20 +0200</pubDate>
+      <guid>http://localhost:1313/posts/543.diameterofbinarytree/</guid>
+      <description>Problem Description Given the root of a binary tree, return the length of the diameter of the tree.&#xA;The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.&#xA;The length of a path between two nodes is represented by the number of edges between them.&#xA;Example 1: Input: root = [1,2,3,4,5] Output: 3 Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3].</description>
+    </item>
+    <item>
+      <title>104. Maximum Depth Of Binary Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/104.maximumdepthofbinarytree/</link>
+      <pubDate>Thu, 03 Apr 2025 11:18:59 +0200</pubDate>
+      <guid>http://localhost:1313/posts/104.maximumdepthofbinarytree/</guid>
+      <description>Problem Description Given the root of a binary tree, return its maximum depth.&#xA;A binary tree&amp;rsquo;s maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.&#xA;Example 1: Input: root = [3,9,20,null,null,15,7] Output: 3 Example 2: Input: root = [1,null,2] Output: 2 My Idea My idea here was to utilize recursion and DFS. If the root has no children return 1, else return 1 plus the max from the depths of its children.</description>
+    </item>
+    <item>
+      <title>226. Invert Binary Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/226.invertbinarytree/</link>
+      <pubDate>Thu, 03 Apr 2025 11:01:35 +0200</pubDate>
+      <guid>http://localhost:1313/posts/226.invertbinarytree/</guid>
+      <description>Problem Description Given the root of a binary tree, invert the tree, and return its root.&#xA;Example 1: Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Example 2: Input: root = [2,1,3] Output: [2,3,1] My Idea My idea here was to use recursion and DFS. If the root has no children return root, else swap the left and the right children and invert them.&#xA;My solution from typing_extensions import Optional # Definition for a binary tree node.</description>
+    </item>
     <item>
       <title>206. Reverse Linked List - LeetCode</title>
       <link>http://localhost:1313/posts/206.reverselinkedlist/</link>
