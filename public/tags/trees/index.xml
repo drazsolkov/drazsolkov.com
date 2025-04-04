@@ -6,8 +6,22 @@
     <description>Recent content in Trees on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Apr 2025 14:58:22 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 04 Apr 2025 11:58:54 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/trees/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>572. Subtree Of Another Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/572.subtreeofanothertree/</link>
+      <pubDate>Fri, 04 Apr 2025 11:58:54 +0200</pubDate>
+      <guid>http://localhost:1313/posts/572.subtreeofanothertree/</guid>
+      <description>Problem Description Given the roots of two binary trees root and subRoot, return True if there is a subtree of root with the same structure and node values of subRoot and False otherwise.&#xA;A subtree of a binary tree tree is a tree that consists of a node in tree and all of this node&amp;rsquo;s descendants. The tree tree could also be considered as a subtree of itself.&#xA;Example 1: Input: root = [3,4,5,1,2], subRoot = [4,1,2] Output: True Example 2: Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2] Output: False My Idea My idea here was to utilize the isSameTree(p,q) function from 100.</description>
+    </item>
+    <item>
+      <title>100. Same Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/100.sametree/</link>
+      <pubDate>Fri, 04 Apr 2025 10:39:54 +0200</pubDate>
+      <guid>http://localhost:1313/posts/100.sametree/</guid>
+      <description>Problem Description Given the roots of two binary trees p and q, write a function to check if they are the same or not.&#xA;Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.&#xA;Example 1: Input: p = [1,2,3], q = [1,2,3] Output: True Example 2: Input: p = [1,2], q = [1,null,2] Output: False Example 3: Input: p = [1,2,1], q = [1,1,2] Output: False My Idea My idea here was to modify the algorithm from 104.</description>
+    </item>
     <item>
       <title>110. Balanced Binary Tree - LeetCode</title>
       <link>http://localhost:1313/posts/110.balancedbinarytree/</link>
@@ -34,7 +48,7 @@
       <link>http://localhost:1313/posts/226.invertbinarytree/</link>
       <pubDate>Thu, 03 Apr 2025 11:01:35 +0200</pubDate>
       <guid>http://localhost:1313/posts/226.invertbinarytree/</guid>
-      <description>Problem Description Given the root of a binary tree, invert the tree, and return its root.&#xA;Example 1: Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Example 2: Input: root = [2,1,3] Output: [2,3,1] My Idea My idea here was to use recursion and DFS. If the root has no children return root, else swap the left and the right children and invert them.&#xA;My solution from typing_extensions import Optional # Definition for a binary tree node.</description>
+      <description>Problem Description Given the root of a binary tree, invert the tree, and return its root.&#xA;Example 1: Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Example 2: Input: root = [2,1,3] Output: [2,3,1] My Idea My idea here was to use recursion and DFS. If the root has no children return root, else swap the left and the right children and invert them.&#xA;My solution from typing import Optional # Definition for a binary tree node.</description>
     </item>
   </channel>
 </rss>
