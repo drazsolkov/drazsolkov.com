@@ -6,8 +6,36 @@
     <description>Recent content in Blog on Denis Razsolkov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Apr 2025 11:58:54 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 09 Apr 2025 11:37:21 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1448. Count Good Nodes In Binary Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/1448.countgoodnodesinbinarytree/</link>
+      <pubDate>Wed, 09 Apr 2025 11:37:21 +0200</pubDate>
+      <guid>http://localhost:1313/posts/1448.countgoodnodesinbinarytree/</guid>
+      <description>Problem Description Given a binary tree root, a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X.&#xA;Return the number of good nodes in the binary tree.&#xA;Example 1: Input: root = [3,1,4,3,null,1,5] Output: 4 Explanation: Nodes in blue are good Example 2: Input: root = [3,3,null,4,2] Output: 3 My Idea The idea here is to utilize a modified pre-order DFS, where at every step we also keep the current max value on the path, so we can make a decision on weather a node is good or not.</description>
+    </item>
+    <item>
+      <title>199. Binary Tree Right Side View - Leet Code</title>
+      <link>http://localhost:1313/posts/199.binarytreerightsideview/</link>
+      <pubDate>Wed, 09 Apr 2025 11:04:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/199.binarytreerightsideview/</guid>
+      <description>Problem Description Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.&#xA;Example 1: Input: root = [1,2,3,null,5,null,4] Output: [1,3,4] Expalantion: Example 2: Input: [1,2,3,4,null,null,null,5] Output: [1,3,4,5] Expalantion: My Idea The trick here is to see that what we need is essentially the rightmost element of every level. This means the last element of every level after a BFS, so we can simply modify the res.</description>
+    </item>
+    <item>
+      <title>102. Binary Tree Level Order Traversal - LeetCode</title>
+      <link>http://localhost:1313/posts/102.binarytreelevelordertraversal/</link>
+      <pubDate>Wed, 09 Apr 2025 10:54:01 +0200</pubDate>
+      <guid>http://localhost:1313/posts/102.binarytreelevelordertraversal/</guid>
+      <description>Problem Description Given the root of a binary tree, return the level order traversal of its nodes&amp;rsquo; values. (i.e., from left to right, level by level).&#xA;Example 1: Input: root = [3,9,20,null,null,15,7] Output: [[3],[9,20],[15,7]] Example 2: Input: root = [] Output: [] My Idea The problem here is essentially implementing Breath First Search (BFS). To do this we need a queue. First we add the root node to the queue. Then while the queue is not empty we create a list for every lvl, which is essentially len(q) at the current iteration.</description>
+    </item>
+    <item>
+      <title>235. Lowest Common Ancestor Of A Binary Search Tree - LeetCode</title>
+      <link>http://localhost:1313/posts/235.lowestcommonancestorofabinarysearchtree/</link>
+      <pubDate>Wed, 09 Apr 2025 10:26:45 +0200</pubDate>
+      <guid>http://localhost:1313/posts/235.lowestcommonancestorofabinarysearchtree/</guid>
+      <description>Problem Description Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.&#xA;According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”&#xA;Example 1: Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8 Output: 6 Example 2: Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4 Output: 2 My Idea The idea here is to make use of the structure of a Binary Search Tree, namely that for each node the left subtree contains nodes with lower values and the right subtree contains nodes with higher values.</description>
+    </item>
     <item>
       <title>572. Subtree Of Another Tree - LeetCode</title>
       <link>http://localhost:1313/posts/572.subtreeofanothertree/</link>
