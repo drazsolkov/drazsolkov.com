@@ -169,7 +169,7 @@
 
     <div class="post-content">
         <h2 id="problem-description">Problem Description</h2>
-<p>Given an array of integers temperatures represents the daily <code>temperatures</code>, return an array <code>answer</code> such that <code>answer[i]</code> is the number of days you have to wait after the <code>ith</code> day to get a warmer temperature. If there is no future day for which this is possible, keep <code>answer[i] == 0</code> instead.</p>
+<p>Given an array of integers <code>temperatures</code> that represents the daily temperatures, return an array <code>answer</code> such that <code>answer[i]</code> is the number of days you have to wait after the <code>ith</code> day to get a warmer temperature. If there is no future day for which this is possible, keep <code>answer[i] == 0</code> instead.</p>
 <h3 id="example-1">Example 1:</h3>
 <ul>
 <li><strong>Input:</strong> <code>temperatures = [73,74,75,71,69,72,76,73]</code></li>
@@ -181,7 +181,7 @@
 <li><strong>Output:</strong> <code>[1,1,1,0]</code></li>
 </ul>
 <h2 id="my-idea">My Idea</h2>
-<p>The idea here is to construct a stack of monotonically decreasing values. Every time we see a value that is greater than the topmost value in the stack we start popping from it until the current value is the lowest one in the stack. For each <code>pop()</code>, we add the difference between the indices of the popped element and the current one at the position of the popped element in the <code>anwer</code> array. This results in a time and space complexity of <code>O(n)</code></p>
+<p>The idea here is to construct a stack of monotonically decreasing values. Every time we see a value that is greater than the topmost value in the stack we start popping from it until the current value is the lowest one in the stack. For each <code>pop()</code>, we add the difference between the indices of the popped element and the current one at the position of the popped element in the <code>answer</code> array. This results in a time and space complexity of <code>O(n)</code></p>
 <h2 id="my-solution">My solution</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Time Complexity: O(n)</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">dailyTemperatures</span>(temperatures: list[int]) <span style="color:#f92672">-&gt;</span> list[int]:

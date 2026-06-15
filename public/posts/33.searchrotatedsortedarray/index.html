@@ -171,7 +171,7 @@
         <h2 id="problem-description">Problem Description</h2>
 <p>There is an integer array <code>nums</code> sorted in ascending order (with distinct values).</p>
 <p>Prior to being passed to your function, nums is possibly rotated at an unknown pivot index <code>k (1 &lt;= k &lt; nums.length)</code> such that the resulting array is <code>[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]</code> (<code>0</code>-indexed). For example, <code>[0,1,2,4,5,6,7]</code> might be rotated at pivot index <code>3</code> and become <code>[4,5,6,7,0,1,2]</code>.</p>
-<p>Given the array nums after the possible rotation and an integer target, return the index of <code>target</code> if it is in <code>nums</code>, or <code>-1</code> if it is not in <code>nums</code>.</p>
+<p>Given the array nums after the possible rotation and an integer <code>target</code>, return the index of <code>target</code> if it is in <code>nums</code>, or <code>-1</code> if it is not in <code>nums</code>.</p>
 <p>You must write an algorithm with <code>O(log n)</code> runtime complexity.</p>
 <h3 id="example-1">Example 1:</h3>
 <ul>
@@ -184,7 +184,7 @@
 <li><strong>Output:</strong> <code>-1</code></li>
 </ul>
 <h2 id="my-idea">My Idea</h2>
-<p>It is clear from the requirement of a <code>O(log n)</code> time complexity that we need to implement binary search. The modification to the normal binary search here is that after choosing our <code>mid</code>, we check to see which half of the array is sorted and if our <code>target</code> is part of it, or we need to continue searching in the other half. This is required due to the array being rotated. The additional check do not, however, affect the time complexity significantly, which leave us with a <code>O(log n)</code> complexity, just as desired in the problem definition.</p>
+<p>It is clear from the requirement of a <code>O(log n)</code> time complexity that we need to implement binary search. The modification to the normal binary search here is that after choosing our <code>mid</code>, we check to see which half of the array is sorted and if our <code>target</code> is part of it, or we need to continue searching in the other half. This is required due to the array being rotated. The additional check does not, however, affect the time complexity significantly, which leave us with a <code>O(log n)</code> complexity, just as desired in the problem definition.</p>
 <h2 id="my-solution">My solution</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Time Complexity: O(log n)</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">search</span>( nums: list[int], target: int) <span style="color:#f92672">-&gt;</span> int:

@@ -3,7 +3,7 @@ type: page
 ---
 
 # Denis Razsolkov
-Developer, Computer Science B.Sc
+Developer
 ||||||||||
 ## Currently
 ||||||||||
@@ -11,7 +11,7 @@ Developer, Computer Science B.Sc
 &nbsp;
 &nbsp;
 
-A Scientific Assistant at the [Institute for Medical Statistics](https://www.ukaachen.de/kliniken-institute/institut-fuer-medizinische-statistik/institut/) of [RWTH Aachen University](https://www.rwth-aachen.de/go/id/a/?lidx=1).
+A Consultant in Statistical Programming working with RWE at  [IQVIA](https://www.iqvia.com).
 ||||||||||
 ### Specialized in
 ||||||||||
@@ -35,7 +35,9 @@ R programming, server administration, Moodle administration, teaching
 &nbsp;
 &nbsp;
 
-**Scientific Assistant** at the [Institute for Medical Statistics](https://www.ukaachen.de/kliniken-institute/institut-fuer-medizinische-statistik/institut/) of [RWTH Aachen University](https://www.rwth-aachen.de/go/id/a/?lidx=1) (since December 2022)
+**Consultant | Statistical Programming | RWE** at [IQVIA](https://www.iqvia.com) (since June 2026)
+
+**Scientific Assistant** at the [Institute for Medical Statistics](https://www.ukaachen.de/kliniken-institute/institut-fuer-medizinische-statistik/institut/) of [RWTH Aachen University](https://www.rwth-aachen.de/go/id/a/?lidx=1) (December 2022-28.02.2026)
 
 **Student Assistant** at the [Institute for Medical Statistics](https://www.ukaachen.de/kliniken-institute/institut-fuer-medizinische-statistik/institut/) of [RWTH Aachen University](https://www.rwth-aachen.de/go/id/a/?lidx=1) (2019-December 2022)
 ||||||||||
